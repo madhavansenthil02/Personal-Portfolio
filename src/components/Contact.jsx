@@ -1,6 +1,6 @@
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { useState } from "react";
 
 const Contact = () => {
@@ -47,7 +47,7 @@ const Contact = () => {
     <div id="contact" className="bg-[#ffffff] min-h-screen flex items-center justify-center">
       <div className="max-w-[90%] md:max-w-[75%] mx-auto font-inter space-y-10 py-10">
         <div className="text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#fe5617]">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#aa336a]">
             Get in touch
           </h2>
         </div>
@@ -55,36 +55,30 @@ const Contact = () => {
           <div className="flex flex-col space-y-5 text-lg md:text-xl font-semibold">
             <div className="flex items-center gap-3">
               <FaLocationDot className="text-[#fe5617]" size={20} />
-              <span>Pondicherry</span>
+              <span>Kumbakonam</span>
             </div>
             <div className="flex items-center gap-3">
               <FaPhoneAlt className="text-[#fe5617]" size={20} />
-              <span>9092595881</span>
+              <span>9677477005</span>
             </div>
             <div className="flex items-center gap-3">
               <FaEnvelope className="text-[#fe5617]" size={20} />
-              <span>immucoder@gmail.com</span>
+              <span>madhavansenthil0204@gmail.com</span>
             </div>
             <div className="flex flex-col items-center gap-3">
-              <h2 className="text-xl font-bold">Follow on</h2>
+              <h2 className="text-[#097969] text-xl font-bold">Follow on</h2>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/AMOHAMMEDIMRAN"
+                  href="https://github.com/madhavansenthil02/"
                   className="hover:text-[#fe5617]"
                 >
                   <FaGithub size={29} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/mohammedimrana/"
+                  href="https://www.linkedin.com/in/madhavan-s-9a6412285/"
                   className="hover:text-[#fe5617]"
                 >
                   <FaLinkedin size={29} />
-                </a>
-                <a
-                  href="https://www.instagram.com/immucoder/?__pwa=1"
-                  className="hover:text-[#fe5617]"
-                >
-                  <FaInstagram size={29} />
                 </a>
               </div>
             </div>
@@ -95,7 +89,7 @@ const Contact = () => {
             onSubmit={handleSubmit}
             className="flex flex-col gap-5 w-full max-w-md"
           >
-            <h2 className="text-2xl font-bold text-[#fe5617] text-center">
+            <h2 className="text-2xl font-bold text-[#7393b3] text-center">
               Send a Message
             </h2>
             <input
@@ -126,7 +120,7 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              className="bg-[#fe5617] text-white py-3 rounded-md font-semibold hover:bg-[#d44810] disabled:opacity-50"
+              className="bg-[#713f12] text-white py-3 rounded-md font-semibold hover:bg-[#d44810] disabled:opacity-50"
               disabled={isSubmitting}
             >
               {isSubmitting ? "Sending..." : "Send Message"}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { Link } from "react-scroll";
 
@@ -11,8 +11,8 @@ const Header = () => {
       <div className="max-w-[90%] mx-auto py-3 flex items-center justify-between font-inter">
         {/* Logo */}
         <div>
-          <h1 className="text-[2.5rem] font-bold text-[#000] hover:text-[#fe5617] ">
-            Imran.
+          <h1 className="text-[2rem] font-bold text-[black] hover:text-[#f88379] ">
+          🌐My Developer Journey
           </h1>
         </div>
 
@@ -34,21 +34,21 @@ const Header = () => {
         >
           <ul className="flex flex-col gap-3 lg:flex-row lg:items-center lg:gap-5 text-[14px] font-semibold">
            <Link to="home" smooth={true} duration={500}>
-           <li className="hover:text-[#fe5617] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
+           <li className="hover:text-[#aa336a] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
               Home
             </li></Link>
             <Link to="about" smooth={true} duration={500}>
-            <li className="hover:text-[#fe5617] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
+            <li className="hover:text-[#aa336a] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
               About
             </li>
             </Link>
            <Link to="project" smooth={true} duration={500}>
-           <li className="hover:text-[#fe5617] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
+           <li className="hover:text-[#aa336a] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
               Project
             </li>
            </Link>
             <Link to="contact" smooth={true} duration={500}>
-            <li className="hover:text-[#fe5617] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
+            <li className="hover:text-[#aa336a] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
               Contact
             </li>
             </Link>
@@ -60,22 +60,16 @@ const Header = () => {
             } lg:hidden mt-3 flex justify-center gap-5`}
           >
             <a
-              href="https://github.com/AMOHAMMEDIMRAN"
+              href="https://github.com/madhavansenthil02/"
               className="  hover:text-[#fe5617] "
             >
               <FaGithub size={29} />
             </a>
             <a
-              href="https://www.linkedin.com/in/mohammedimrana/"
+              href="https://www.linkedin.com/in/madhavan-s-9a6412285/"
               className="hover:text-[#fe5617]"
             >
               <FaLinkedin size={29} />
-            </a>
-            <a
-              href="https://www.instagram.com/immucoder/?__pwa=1"
-              className="hover:text-[#fe5617]"
-            >
-              <FaInstagram size={29} />
             </a>
           </div>
         </nav>
@@ -83,22 +77,16 @@ const Header = () => {
         {/* Social Media Links */}
         <div className="hidden lg:flex w-[100px] items-center justify-between">
           <a
-            href="https://github.com/AMOHAMMEDIMRAN"
+            href="https://github.com/madhavansenthil02/"
             className="hover:text-[#fe5617]"
           >
             <FaGithub size={29} />
           </a>
           <a
-            href="https://www.linkedin.com/in/mohammedimrana/"
+            href="https://www.linkedin.com/in/madhavan-s-9a6412285/"
             className="hover:text-[#fe5617]"
           >
             <FaLinkedin size={29} />
-          </a>
-          <a
-            href="https://www.instagram.com/immucoder/?__pwa=1"
-            className="hover:text-[#fe5617]"
-          >
-            <FaInstagram size={29} />
           </a>
         </div>
       </div>
