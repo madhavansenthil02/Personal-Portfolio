@@ -17,7 +17,6 @@ const Home = () => {
               options={{
                 strings: [
                   "Front-end Developer.",
-                  "Python Developer.",
                   "Designer.",
                 ],
                 autoStart: true,
@@ -49,7 +48,7 @@ const Home = () => {
           </div>
           {/* Button */}
           <div className="bg-[#713f12] text-[#ffffff] px-5 py-2 rounded-2xl font-bold ">
-            <a href="/Madhavan-Resume.pdf" download="Madhavan-Resume.pdf">Download CV</a>
+            <a href="/Resume.pdf" download="Resume.pdf">Download CV</a>
           </div>
         </div>
 
